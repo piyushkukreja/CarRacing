@@ -1,0 +1,266 @@
+body{
+    text-align: center;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background: #fc3;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+}
+.thing{
+    height: 200px;
+    width: 200px;
+    background: #ac3;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 200px;
+    border-top-left-radius: 200px;
+}
+button{
+    background: #933;
+    color: white;
+    padding: 10px;
+    border: solid 2px BLACK;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/*Selectors.css*/
+
+
+body#selectors{
+    text-align: left;
+}
+
+
+
+/*Events css*/
+
+
+body#events{
+    width: 500px;
+    margin: 0 auto;
+}
+form input{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/*jQuery Chaining Styles*/
+
+.notification-bar{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.notification-bar a{
+    color: #fc3;
+}
+
+/*jQuery hide show Styles*/
+
+.hidden{
+    display: none;
+}
+#box1{
+    height: 100px;
+    width:100px;
+    background: #fc3;
+    color: #fff;
+    border: solid 4px #333;
+    margin: 0 auto;
+}
+
+
+
+/*Styles for animate.html*/
+
+#navArrows{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 100px auto 0;
+    background: #333;
+    border-radius: 100px;
+    padding: 20px;
+}
+.navigationArrow{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #fff;
+    color: #222;
+}
+#up{
+    left: 50%;
+    margin-left: -25px;
+}
+#left, #right{
+    top: 50%;
+    margin-top: -25px;
+    
+}
+#right{
+    right: 20px;
+    left: inherit;
+    
+}
+#down{
+    bottom: 20px;
+    top: inherit;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: #A7F;
+    color: #fff;
+    border: solid 4px #A1F;
+    line-height: 100px;
+    margin: 100px auto 0;
+    opacity: 0.5;
+    /* for position properties to work in jQuery anmate, you need to make sure that the element being animated has a position defined to it.*/
+    position: relative;
+}
+
+
+/*Styles for css.html*/
+
+
+#circle1{
+    display:inline-block;
+    background: #8A8D26
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
+.circleShape{
+    border-radius: 100%;
+}
+
+/*Styles for hw.html*/
+#times{
+    display: inline-block;
+    position: absolute;
+    left: 98%;
+    top: 10px;
+    cursor: pointer;
+}
+#withTimes{
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    background: #f7e7ec;
+    border: none;
+    color: #ff0000;
+    font-size: 14px;
+    padding: 5px;
+    padding-right: 45px;
+/*    display: none;*/
+}
+
+/*Styles for Car.html*/
+
+#racetrack{
+    background: url('../images/road.jpg') center left repeat-x;
+    height: 330px;
+    box-sizing: border-box;
+    margin: 40px 0;
+    border-right: dashed 10px #fff;/*finish line*/ 
+}
+.car{
+    position: relative;
+    display: block;
+}
+#car1{
+    top: 30px;
+}
+#car2{
+    top: 100px;
+}
+#raceInfoContainer{
+    width: 80%;
+    margin: 40px auto 0;
+    background: #333;
+    height: 200px;
+}
+#raceInfoContainer>h2{
+    color:#fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+}
+.raceInfo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    width: 50%;
+    float: left;
+}
+.raceInfo>span{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+}
+#raceInfo1{
+    color: #77B82F;
+}
+#raceInfo2{
+    color: #B82F3E;
+}
+input[type="button"]{
+    background: #77B82F;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 1px #444;
+    cursor: pointer;
+}
+input#reset{
+    background: #fc3;
+    color: #444;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*Styles for tic-tac-toe.html*/
+
+#main-container{
+    margin-top: 100px;
+    width: 100%;
+/*    background:#00eba4;*/
+}
+.xo-box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:#00eba4;
+}
+.row1{
+    margin-top: 100px;
+    border-right: solid 4px #444;
+}
+#1{}
